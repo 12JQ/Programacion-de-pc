@@ -56,7 +56,9 @@ int main() {
       }
 
     }
-
+   else{
+     printf("Muchas gracias por comprar aquí\n");
+   }
   }
 
   }
@@ -89,6 +91,9 @@ int main() {
         printf("ahora cuenta con %d puntos\n", puntos);
       }
 
+    }
+    else{
+      printf("Muchas gracias por comprar aquí\n");
     }
 
   }
