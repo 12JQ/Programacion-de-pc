@@ -12,16 +12,8 @@ void revisar();
 
 //-------------funcion-principal---------------
 int main(){
-    char nombreArchivo[30];
 
     int opcion;
-    
-    FILE* archivo;
-    FILE* archivo_temp;
-    char nombre[15];
-    char contactoEliminar[15];
-    char apellido[20];
-    char telefono[20];
 
     imprimirAccion();
     scanf("%d", &opcion);
@@ -196,6 +188,5 @@ void revisar(){
                         fscanf(archivo, "%s %s %s\n", nombre, apellido, telefono);
                         printf("%s %s %s\n", nombre, apellido, telefono);
                     }
-
 
 }
